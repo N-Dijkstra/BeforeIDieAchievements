@@ -36,6 +36,11 @@ const Header = () => {
       {isMobile ? (
         <>
           <div className="navbar">
+            <div className="opensource__title">
+              <span>
+                An Open Source Project
+              </span>
+            </div>
             <div className="hamburger" onClick={toggleMenu}>
               <div className={`bar ${menuOpen ? "open" : ""}`}></div>
               <div className={`bar ${menuOpen ? "open" : ""}`}></div>

@@ -112,6 +112,16 @@ header {
     width: 100%; 
   }
 
+  .opensource__title {
+    span {
+      color: $color;
+      font-family: "Mefika", sans-serif;
+      font-size: 4vmax;
+      animation: rotateHue infinite $t * $slides * 2 linear;
+      animation-delay: calc($t / 17);
+    }
+  }
+
   .hamburger {
     cursor: pointer;
     display: flex;
